@@ -13,7 +13,7 @@ export default function Header() {
       <LeftSide className="flexCenter">
         <div>
           <h1 className="extraBold font60">Welcome to Fidus Points – Your Ultimate Customer Loyalty Solution!</h1>
-          <HeaderP style={{color:"#0B093B"}} className="font20 semiBold">
+          <HeaderP style={{color:"#0B093B"}} className="font25 semiBold">
           <strong>At Fidus Points, we believe in recognizing and rewarding our loyal customers. That's why we offer 
 three exciting loyalty tiers – <i style={{color:"#f1c80d"}}>Bronze,</i> <i style={{color:"#f1c80d"}}>Silver,</i> and <i style={{color:"#f1c80d"}}>Gold</i> – each with its own set of exclusive benefits and 
 perks. Join now and elevate your retail experience to new heights!</strong>
@@ -31,10 +31,10 @@ perks. Join now and elevate your retail experience to new heights!</strong>
               <QuotesIcon />
             </QuotesWrapper>
             <div>
-              <p className="font15 whiteColor">
+              <p className="font20 whiteColor">
                 <em>Fidus points helps enhance your shopping experience.</em>
               </p>
-              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Sam from Fidus points</p>
+              <p className="font15 orangeColor textRight" style={{marginTop: '10px'}}>Sam from Fidus points</p>
             </div>
           </QuoteWrapper>
           <DotsWrapper>

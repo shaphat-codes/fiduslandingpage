@@ -36,10 +36,11 @@ collecting points that can be redeemed for exciting rewards, exclusive discounts
             </AddLeft>
             <AddRight>
               <h2 className="font40 extraBold">Why Choose Fidus Points?</h2>
+              <br/>
               
 
-              <h2 className="font25 extraBold">Get Rewarded for Your Loyalty</h2>
-              <ul className="font15">
+              <h2 className="font30 extraBold">Get Rewarded for Your Loyalty</h2>
+              <ul className="font20">
               
               <li>At Fidus Points, we believe in rewarding our valued retail customers. By becoming a member, you'll 
 have the opportunity to earn points with every purchase and interaction. The more points you collect, 
@@ -48,10 +49,10 @@ a world of perks and benefits!</li>
 
 
               
-              </ul>
+              </ul><br/>
 
-              <h2 className="font25 extraBold">Enjoy Exclusive Discounts and Offers</h2>
-              <ul className="font15">
+              <h2 className="font30 extraBold">Enjoy Exclusive Discounts and Offers</h2>
+              <ul className="font20">
               
               <li>As a Fidus Points member, you'll gain access to a treasure trove of exclusive discounts and offers. 
 Whether it's discounts on your favorite products, early access to sales, or special promotions, our 
@@ -74,8 +75,8 @@ indulging in the retail therapy you love.</li>
               
               <AddLeftInner>
               <h2 className="font40 extraBold">How Does Fidus Points Work?</h2>
-              <h2 className="font20 semiBold"><strong>Simple and Seamless Sign-Up</strong></h2>
-              <ul className="font15">
+              <h2 className="font30 semiBold"><strong>Simple and Seamless Sign-Up</strong></h2>
+              <ul className="font20">
               
               <li>Joining Fidus Points is a breeze! Simply sign up through our user-friendly platform, and you'll be on 
 your way to earning rewards. Start collecting points instantly and enjoy the benefits of being a loyal 
@@ -83,10 +84,10 @@ customer.</li>
 
 
               
-              </ul>
+              </ul><br/>
 
-              <h2 className="font20 semiBold"><strong>Earn Points with Every Purchase</strong></h2>
-              <ul className="font15">
+              <h2 className="font30 semiBold"><strong>Earn Points with Every Purchase</strong></h2>
+              <ul className="font20">
               
               <li>Every time you shop at participating retailers, you'll earn points for your purchases. The more you 
 shop, the more points you accumulate. Watch your points grow and get closer to amazing rewards with 
@@ -94,10 +95,10 @@ each transaction.</li>
 
 
               
-              </ul>
+              </ul><br/>
 
-              <h2 className="font20 semiBold"><strong>Points for Exciting Rewards</strong> </h2>
-              <ul className="font15">
+              <h2 className="font30 semiBold"><strong>Points for Exciting Rewards</strong> </h2>
+              <ul className="font20">
               
               <li>Once you've collected enough points, it's time to reap the rewards. Choose from a wide range of 
 options, including discounts, freebies, gift cards, and even exclusive experiences. Whether it's treating 
@@ -105,10 +106,10 @@ yourself or surprising loved ones, your points unlock a world of possibilities.<
 
 
               
-              </ul>
+              </ul><br/>
 
-              <h2 className="font20 semiBold"><strong>Stay Informed with Notifications</strong></h2>
-              <ul className="font15">
+              <h2 className="font30 semiBold"><strong>Stay Informed with Notifications</strong></h2>
+              <ul className="font20">
               
               <li>Never miss out on exciting opportunities to earn extra points or exclusive rewards. Fidus Points keeps 
 you in the loop with real-time notifications about special offers, flash sales, and limited-time 
@@ -116,11 +117,11 @@ promotions. Be the first to know and make the most of your loyalty membership.</
 
 
               
-              </ul>
+              </ul><br/>
 
 
-              <h2 className="font20 semiBold"><strong>Unlock a World of Rewards – Join Fidus Points Now!</strong></h2>
-              <ul className="font15">
+              <h2 className="font30 semiBold"><strong>Unlock a World of Rewards – Join Fidus Points Now!</strong></h2>
+              <ul className="font20">
               
               <li>Ready to embark on a rewarding journey? Sign up for Fidus Points today and start collecting points 
 with every purchase. Experience the thrill of being a loyal customer</li>

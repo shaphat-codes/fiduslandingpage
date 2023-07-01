@@ -22,8 +22,7 @@ export default function Pricing() {
                 offers={[
                   { name: "1% Cashback on Every Spend", cheked: true },
                   
-                  { name: "Overdraft Facility", cheked: false },
-                  { name: "Credit Line", cheked: false },
+
                 ]}
                 action={() => alert("clicked")}
               />
@@ -38,7 +37,7 @@ export default function Pricing() {
                   { name: "2% Cashback on Every Spend", cheked: true },
                   
                   { name: "Overdraft Facility", cheked: true },
-                  { name: "Credit Line", cheked: false },
+   
                 ]}
                 action={() => alert("clicked")}
               />
