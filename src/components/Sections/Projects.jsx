@@ -18,11 +18,10 @@ export default function Projects() {
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Do more with your rewards</h1>
-            <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+            <h1 className="font40 extraBold">Unlock the Power of Rewards and <br/>Start Collecting Points Today!</h1>
+            <p className="font25">
+            Join Fidus Points and embark on a rewarding journey to enhance your retail experience. <br/>Sign up now and start 
+collecting points that can be redeemed for exciting rewards, exclusive discounts, and memorable experiences.              <br />
             </p>
           </HeaderInfo>
           <div className="lightBg">
@@ -36,17 +35,108 @@ export default function Projects() {
               </AddLeftInner>
             </AddLeft>
             <AddRight>
-              <h2 className="font40 extraBold">Save more with fidus points</h2>
-              <p className="font12">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-              </p>
-              <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
-                <div style={{ width: "190px" }}>
-                  <FullButton title="Get Started" action={() => alert("clicked")} />
-                </div>
+              <h2 className="font40 extraBold">Why Choose Fidus Points?</h2>
+              
+
+              <h2 className="font25 extraBold">Get Rewarded for Your Loyalty</h2>
+              <ul className="font15">
+              
+              <li>At Fidus Points, we believe in rewarding our valued retail customers. By becoming a member, you'll 
+have the opportunity to earn points with every purchase and interaction. The more points you collect, 
+the greater the rewards you can enjoy. Say goodbye to ordinary shopping experiences and get ready for 
+a world of perks and benefits!</li>
+
+
+              
+              </ul>
+
+              <h2 className="font25 extraBold">Enjoy Exclusive Discounts and Offers</h2>
+              <ul className="font15">
+              
+              <li>As a Fidus Points member, you'll gain access to a treasure trove of exclusive discounts and offers. 
+Whether it's discounts on your favorite products, early access to sales, or special promotions, our 
+loyalty program ensures that you're always treated like a VIP. Experience the joy of saving while 
+indulging in the retail therapy you love.</li>
+
+
+              
+              </ul>
+              
+            </AddRight>
+          </Advertising>
+        </div>
+      </div>
+
+      <div className="lightBg">
+        <div className="container">
+          <Advertising className="flexSpaceCenter">
+            <AddLeft>
+              
+              <AddLeftInner>
+              <h2 className="font40 extraBold">How Does Fidus Points Work?</h2>
+              <h2 className="font20 semiBold"><strong>Simple and Seamless Sign-Up</strong></h2>
+              <ul className="font15">
+              
+              <li>Joining Fidus Points is a breeze! Simply sign up through our user-friendly platform, and you'll be on 
+your way to earning rewards. Start collecting points instantly and enjoy the benefits of being a loyal 
+customer.</li>
+
+
+              
+              </ul>
+
+              <h2 className="font20 semiBold"><strong>Earn Points with Every Purchase</strong></h2>
+              <ul className="font15">
+              
+              <li>Every time you shop at participating retailers, you'll earn points for your purchases. The more you 
+shop, the more points you accumulate. Watch your points grow and get closer to amazing rewards with 
+each transaction.</li>
+
+
+              
+              </ul>
+
+              <h2 className="font20 semiBold"><strong>Points for Exciting Rewards</strong> </h2>
+              <ul className="font15">
+              
+              <li>Once you've collected enough points, it's time to reap the rewards. Choose from a wide range of 
+options, including discounts, freebies, gift cards, and even exclusive experiences. Whether it's treating 
+yourself or surprising loved ones, your points unlock a world of possibilities.</li>
+
+
+              
+              </ul>
+
+              <h2 className="font20 semiBold"><strong>Stay Informed with Notifications</strong></h2>
+              <ul className="font15">
+              
+              <li>Never miss out on exciting opportunities to earn extra points or exclusive rewards. Fidus Points keeps 
+you in the loop with real-time notifications about special offers, flash sales, and limited-time 
+promotions. Be the first to know and make the most of your loyalty membership.</li>
+
+
+              
+              </ul>
+
+
+              <h2 className="font20 semiBold"><strong>Unlock a World of Rewards – Join Fidus Points Now!</strong></h2>
+              <ul className="font15">
+              
+              <li>Ready to embark on a rewarding journey? Sign up for Fidus Points today and start collecting points 
+with every purchase. Experience the thrill of being a loyal customer</li>
+
+
+              
+              </ul>
+
+              
                 
-              </ButtonsRow>
+              </AddLeftInner>
+            </AddLeft>
+            <AddRight>
+            <ImgWrapper className="flexCenter">
+                  <img className="radius8" src={AddImage2} alt="add" />
+                </ImgWrapper>
             </AddRight>
           </Advertising>
         </div>

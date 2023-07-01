@@ -8,27 +8,19 @@ export default function Pricing() {
     <Wrapper id="pricing">
       <div className="whiteBg">
         <div className="container">
-          <HeaderInfo>
-            <h1 className="font40 extraBold">Achieve more with more points</h1>
-            <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
-            </p>
-          </HeaderInfo>
+          
           <TablesWrapper className="flexSpaceNull">
             <TableBox>
               <PricingTable
                 icon="roller"
-                price="1000 points"
-                title="Bronze"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                price="0-75000 points"
+                title="Bronze Tier"
+                text=""
                 offers={[
-                  { name: "Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Offer", cheked: false },
-                  { name: "Offer", cheked: false },
-                  { name: "Offer", cheked: false },
+                  { name: "1% Cashback on Every Spend", cheked: true },
+                  
+                  { name: "Overdraft Facility", cheked: false },
+                  { name: "Credit Line", cheked: false },
                 ]}
                 action={() => alert("clicked")}
               />
@@ -36,15 +28,14 @@ export default function Pricing() {
             <TableBox>
               <PricingTable
                 
-                price="3000 points"
-                title="Silver"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                price="75001 - 200,000"
+                title="Silver Tier"
+                text=""
                 offers={[
-                  { name: "Offerr", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "POffer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Offer", cheked: false },
+                  { name: "2% Cashback on Every Spend", cheked: true },
+                  
+                  { name: "Overdraft Facility", cheked: true },
+                  { name: "Credit Line", cheked: false },
                 ]}
                 action={() => alert("clicked")}
               />
@@ -52,15 +43,14 @@ export default function Pricing() {
             <TableBox>
               <PricingTable
                 icon="Gold"
-                price="5000 points"
-                title="Gold"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                price="200,000+ points"
+                title="Gold Tier"
+                text=""
                 offers={[
-                  { name: "Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Offer", cheked: true },
-                  { name: "Offer", cheked: true },
+                  { name: "3% Cashback on Every Spend", cheked: true },
+                  
+                  { name: "Overdraft Facility", cheked: true },
+                  { name: "Credit Line", cheked: true },
                 ]}
                 action={() => alert("clicked")}
               />
