@@ -8,10 +8,11 @@ export default function Pricing() {
     <Wrapper id="pricing">
       <div className="whiteBg">
         <div className="container">
-          <HeaderInfo>
+          <br/><br/><br/><br/><br/>
+          
             <h1 className="font40 extraBold">Loyalty Tiers</h1>
             
-          </HeaderInfo>
+          
           <TablesWrapper className="flexSpaceNull">
             <TableBox>
               <PricingTable

@@ -12,11 +12,11 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">Welcome to Fidus Points – Your Ultimate Customer Loyalty Solution!</h1>
-          <HeaderP style={{color:"#0B093B"}} className="font25 semiBold">
-          <strong>At Fidus Points, we believe in recognizing and rewarding our loyal customers. That's why we offer 
+          <h1 className="extraBold font40">Welcome to Fidus Points – Your Ultimate Customer Loyalty Solution!</h1>
+          <HeaderP style={{color:"#0B093B"}} className="font20">
+          At Fidus Points, we believe in recognizing and rewarding our loyal customers. That's why we offer 
 three exciting loyalty tiers – <i style={{color:"#f1c80d"}}>Bronze,</i> <i style={{color:"#f1c80d"}}>Silver,</i> and <i style={{color:"#f1c80d"}}>Gold</i> – each with its own set of exclusive benefits and 
-perks. Join now and elevate your retail experience to new heights!</strong>
+perks. Join now and elevate your retail experience to new heights!
           </HeaderP>
           <BtnWrapper>
             <FullButton title="Get Started" />
