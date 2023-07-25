@@ -18,9 +18,13 @@ export default function Header() {
 three exciting loyalty tiers – <i style={{color:"#f1c80d"}}>Bronze,</i> <i style={{color:"#f1c80d"}}>Silver,</i> and <i style={{color:"#f1c80d"}}>Gold</i> – each with its own set of exclusive benefits and 
 perks. Join now and elevate your retail experience to new heights!
           </HeaderP>
+          <div className="flexCenter h-50 radius8" style={{backgroundImage:"url('https://img.freepik.com/free-photo/high-view-shopping-cards-gift_23-2148670032.jpg?w=740&t=st=1690270925~exp=1690271525~hmac=4a02afd855b8b33736acfbcfb3c9a95d0dc40e4a21206585561b3bd643992f63')", backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat', height:"400px"}}>
           <BtnWrapper>
             <FullButton title="Get Started" />
           </BtnWrapper>
+          </div>
+          
         </div>
       </LeftSide>
       <RightSide>
